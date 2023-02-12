@@ -82,8 +82,8 @@ class BuyItems(View):
                     # Список с item'ами
                     line_items=line_items,
                     mode='payment',
-                    success_url='http://194.36.178.183:8000/success/',
-                    cancel_url='http://194.36.178.183:8000/cancel/',
+                    success_url='http://194.36.178.183/success/',
+                    cancel_url='http://194.36.178.183/cancel/',
                 )
 
                 return JsonResponse({'id': checkout_session.id})
