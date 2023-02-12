@@ -97,8 +97,8 @@ class BuyItems(View):
                     discounts=[{
                         'coupon': coupon.id,
                     }],
-                    success_url='http://194.36.178.183:8000/success/',
-                    cancel_url='http://194.36.178.183:8000/cancel/',
+                    success_url='http://194.36.178.183/success/',
+                    cancel_url='http://194.36.178.183/cancel/',
                 )
 
                 return JsonResponse({'id': checkout_session_with_coupon.id})

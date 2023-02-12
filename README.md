@@ -12,7 +12,7 @@ http://194.36.178.183:8000/
 
 Чтобы у заказа выставить discount или tax, нужно сделать это в админке.
 
-admin panel:
+admin panel: /admin
 
 login: admin password: admin1
 
