@@ -24,7 +24,7 @@ virtualenv env
 
 python3 -m pip install -r requirements.txt
 
-Создать в директории config файл .env и добавить туда переменные для подключения к postgresql
+Добавить в /config/.env переменные для подключения к postgresql
 и переменные с ключами от stripe
 
 ./manage.py migrate
